@@ -521,4 +521,4 @@ const NewsCardGenerator = () => {
   );
 };
 
-export default NewsCardGenerator;
+export default App;
