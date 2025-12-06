@@ -1,3 +1,8 @@
+import { useState } from 'react'
+import reactLogo from './assets/react.svg'
+import viteLogo from '/vite.svg'
+import './App.css'
+
 import React, { useState, useRef, useEffect } from 'react';
 import { Download, Upload, Type, Calendar, Image as ImageIcon, LayoutTemplate, Hash, Globe, Quote, Loader2, Edit, ArrowLeft, CheckCircle, Palette, MonitorPlay, Layers, Zap } from 'lucide-react';
 
@@ -521,4 +526,5 @@ const NewsCardGenerator = () => {
   );
 };
 
-export default NewsCardGenerator;
+export default App;
+
